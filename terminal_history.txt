@@ -1,0 +1,351 @@
+    1  lsblk
+    2  sudo hostnamectl set-hostname kiran
+    3  sudo apt update
+    4  sudo apt install wget
+    5  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    6  sudo dpkg -i google-chrome-stable_current_amd64.deb
+    7  sudo apt update
+    8  cls
+    9  clear
+   10  hey
+   11  clear
+   12  sudo nano /etc/modprobe.d/blacklist.conf
+   13  sudo reboot
+   14  sudo lshw -short > ~/Desktop/system_report.txt
+   15  top -b -n 1 > system_monitor_report.txt
+   16  cd desktop
+   17  ls
+   18  cd Desktop
+   19  clear
+   20  top -b -n 1 > system_monitor_report.txt
+   21  lsusb
+   22  lspci
+   23  clear
+   24  history
+   25  clear
+   26  sudo apt update
+   27  sudo apt install libreoffice
+   28  clear
+   29  lshw -C display
+   30  sudo lshw -C display
+   31  clear
+   32  sudo apt install sysstat
+   33  glxinfo | grep "OpenGL renderer"
+   34  sudo apt install intel-gpu-tools
+   35  sudo intel_gpu_top
+   36  clear
+   37  sudo intel_gpu_top
+   38  clear
+   39  sudo lshw -C display
+   40  clear
+   41  histor
+   42  history
+   43  clear
+   44  cd Desktop
+   45  top -b -n 1 > system_monitor_report.txt
+   46  sudo apt install htop
+   47  htop
+   48  cls
+   49  clear
+   50  sudo snap install --classic code
+   51  git pull
+   52  git reset --hard b5e498e305a797dd7e4105718ddc31112797a37a
+   53  clear
+   54  docker-compose build
+   55  cls
+   56  clear
+   57  docker-compose build
+   58  ps aux | grep dockerd
+   59  docker info
+   60  clea
+   61  cler
+   62  clear
+   63  sudo usermod -aG docker $(whoami)
+   64  docker info
+   65  clear
+   66  sudo apt install git
+   67  git -v
+   68  clear
+   69  git config --global user.name "Kiran Sai"
+   70  git config --global user.email "kiransai0612@gmail.com"
+   71  git clone https://github.com/Kiran06122001/laravel-11-docker.git
+   72  git config --global credential.helper store
+   73  chmod -R 755 ~/.config/Slack
+   74  cd ..
+   75  chmod -R 755 ~/.config/Slack
+   76  sudo snap remove slack
+   77  wget https://downloads.slack-edge.com/linux_releases/slack-desktop-4.37.101-amd64.deb
+   78  clear
+   79  sudo apt install slack-desktop
+   80  sudo snap install slack
+   81  git config --global credential.helper
+   82  history
+   83  clear
+   84  cd Desktop
+   85  clear
+   86  top -b -n 1 > system_monitor_report.txt
+   87  sudo apt update
+   88  sudo apt install docker.io
+   89  docker --version
+   90  sudo systemctl status docker
+   91  clear
+   92  ps aux
+   93  clear
+   94  ps aux --sort=-%mem | head -20
+   95  ps -u $(whoami)
+   96  docker --version
+   97  docker info
+   98  clear
+   99  docker-compose build
+  100  docker-compose -v
+  101  clear
+  102  docker compose build
+  103  sudo apt install docker-compose
+  104  docker-compose --version
+  105  sudo apt install python3-distutils
+  106  sudo apt update
+  107  sudo apt install python3.12-venv
+  108  docker-compose --version
+  109  clear
+  110  docker compose -v
+  111  sudo apt update
+  112  clear
+  113  docker compose build
+  114  docker compose -v
+  115  sudo apt install docker-compose-plugin
+  116  clear
+  117  sudo apt remove docker.io
+  118  clear
+  119  sudo apt update
+  120  sudo apt install ca-certificates curl gnupg
+  121  sudo install -m 0755 -d /etc/apt/keyrings
+  122  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  123  sudo chmod a+r /etc/apt/keyrings/docker.gpg
+  124  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  125    $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  126  sudo apt update
+  127  sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  128  docker --version
+  129  docker compose version
+  130  clear
+  131  sudo systemctl restart docker
+  132  sudo systemctl status docker
+  133  clear
+  134  history > ~/Desktop/terminal_history.txt
+  135  cd Desktop
+  136  top -b -n 1 > system_monitor_report.txt
+  137  docker ps
+  138  docker compose ps
+  139  sudo dmidecode -t memory | grep -i max
+  140  docker volume prune
+  141  docker volume prune -f
+  142  docker container prune -f
+  143  docker image prune -f
+  144  docker network prune -f
+  145  docker system prune -a -f --volumes
+  146  clear
+  147  docker stop $(docker ps -q)
+  148  docker stop $(docker ps -q) && docker system prune -a -f --volumes
+  149  docker system prune -a -f --volumes
+  150  sudo systemctl stop docker
+  151  sudo systemctl stop containerd
+  152  sudo systemctl disable docker
+  153  sudo systemctl disable containerd
+  154  clear
+  155  sudo systemctl stop docker.socket
+  156  sudo systemctl disable docker.socket
+  157  clear
+  158  docker compose version
+  159  clear
+  160  docker-compose build
+  161  clear
+  162  docker compose build
+  163  cls
+  164  clear
+  165  docker stop $(docker ps -q)
+  166  cd ~/Downloads
+  167  sudo dpkg -i perimeter81-app.deb
+  168  sudo apt --fix-broken install  # In case you see missing dependencies
+  169  clear
+  170  sudo
+  171  clear
+  172  sudo
+  173  clear
+  174  sudo systemctl hibernate
+  175  swapon --show
+  176  free -h
+  177  sudo apt update
+  178  clear
+  179  sudo apt upgrade -y
+  180  clear
+  181  nvidia=smi
+  182  nvidia-smi
+  183  clear
+  184  sudo ubuntu-driers devices
+  185  clear
+  186  sudo apt update
+  187  clear
+  188  xrandr --output eDP-1 --brightness 0.5
+  189  sudo apt install brightnessctl
+  190  clear
+  191  brightnessctl set 50%
+  192  sudo brightnessctl set 50%
+  193  sudo brightnessctl set 30%
+  194  brightnessctl --list
+  195  sudo apt update
+  196  clear
+  197  sudo apt upgrade -y
+  198  clear
+  199  history
+  200  clear
+  201  sudo apt install bleachbit
+  202  sudo apt remove bleachbit
+  203  sudo apt install gnome-video
+  204  sudo apt install totem
+  205  clear
+  206  sudo apt remove totem
+  207  clear
+  208  sudo apt update
+  209  clear
+  210  sudo apt upgrade -y
+  211  clear
+  212  sudo apt install vc
+  213  sudo apt install vlc
+  214  sudo apt update
+  215  sudo apt upgrade -y
+  216  clear
+  217  sudo apt update
+  218  sudo apt upgrade -y
+  219  clear
+  220  sudo apt install tree
+  221  clear
+  222  tree /f
+  223  cd ..
+  224  ls
+  225  clear
+  226  tree /f
+  227  clear
+  228  tree /f
+  229  ls
+  230  tree -f
+  231  clear
+  232  ls
+  233  tree -f
+  234  mkdir -p css js images && touch index.html about.html shop.html portfolio.html css/style.css css/responsive.css js/main.js
+  235  clear
+  236  tree -f
+  237  clear
+  238  trre -f
+  239  clear
+  240  tree -f 
+  241  clear
+  242  ls
+  243  sudo lshw -html > ~/Desktop/system-info.html
+  244  clear
+  245  lsblk
+  246  clear
+  247  df -h
+  248  sudo apt update 
+  249  clear
+  250  sudo apt upgrade -y
+  251  clear
+  252  sudo apt update 
+  253  sudo upgrade -y
+  254  sudo apt upgrade -y
+  255  sudo apt update 
+  256  clear
+  257  sudo apt upgrade -y
+  258  sudo apt update 
+  259  clear
+  260  sudo upgrade -y
+  261  sudo apt upgrade -y
+  262  cleaar
+  263  clear
+  264  ls
+  265  sudo cp ~/Downloads/custom-lockscreen.jpg /usr/share/backgrounds/
+  266  sudo nano /etc/dconf/db/gdm.d/01-custom-settings
+  267  clear
+  268  sudo mkdir -p /etc/dconf/db/gdm.d
+  269  sudo nano /etc/dconf/db/gdm.d/01-custom-settings
+  270  sudo dconf update
+  271  sudo systemctl restart gdm
+  272  sudo cp ~/Downloads/custom-lockscreen.jpg /usr/share/backgrounds/
+  273  sudo chmod 644 /usr/share/backgrounds/custom-lockscreen.jpg
+  274  sudo cp -r /usr/share/gnome-shell/theme /usr/share/gnome-shell/theme-backup
+  275  sudo nano /usr/share/gnome-shell/theme/ubuntu.css
+  276  clear
+  277  sudo apt install flameshot
+  278  flameshot gui
+  279  echo $XDG_SESSION_TYPE
+  280  flameshot gui -d
+  281  flameshot gui
+  282  sudo flameshot gui
+  283  sudo apt install xdg-desktop-portal xdg-desktop-portal-gtk
+  284  reboot
+  285  sudo apt install gnome-screenshot
+  286  clear
+  287  sudo apt update
+  288  clear
+  289  sudo apt upgrade -y
+  290  clear
+  291  flameshot gui
+  292  echo $XDG_SESSION_TYPE
+  293  git clone https://github.com/gretrix/lendzi_commission_zoho.git
+  294  git branch
+  295  clear
+  296  lsusb
+  297  iwconfig
+  298  iwlist scan | grep -i frequency
+  299  clear
+  300  sudo apt install dkms git build-essential
+  301  git clone https://github.com/kelebek333/rtl8188fu.git
+  302  cd rtl8188fu
+  303  sudo ./install.sh
+  304  cls
+  305  clear
+  306  ls
+  307  sudo dkms add .
+  308  sudo dkms build rtl8188fu/1.0
+  309  sudo dkms install rtl8188fu/1.0
+  310  sudo modprobe 8188fu
+  311  ls
+  312  lsmod | grep 8188fu
+  313  ls /lib/modules/$(uname -r)/updates/dkms/
+  314  sudo modprobe rtl8188fu
+  315  lsmod | grep 8188
+  316  iwconfig
+  317  echo rtl8188fu | sudo tee -a /etc/modules
+  318  clear
+  319  history > ~/Desktop/terminal_history.txt
+  320  clear
+  321  cd..
+  322  cd ..
+  323  ls
+  324  clear
+  325  sudo apt update && sudo apt install openvpn -y
+  326  clear
+  327  sudo apt upgrade -y
+  328  clear
+  329  sudo nano /usr/local/bin/auto-update.sh
+  330  sudo chmod +x /usr/local/bin/auto-update.sh
+  331  sudo nano /etc/systemd/system/auto-update.service
+  332  sudo systemctl daemon-reexec
+  333  sudo systemctl daemon-reload
+  334  sudo systemctl enable auto-update.service
+  335  sudo systemctl start auto-update.service
+  336  sudo systemctl status auto-update.service
+  337  clear
+  338  #!/bin/bash
+  339  echo "Auto update ran at $(date)" >> /var/log/auto-update.log
+  340  apt update && apt upgrade -y
+  341  echo "Auto update ran at $(date)" >> /var/log/auto-update.log
+  342  apt update && apt upgrade -y
+  343  ls
+  344  clear
+  345  sudo nano /usr/local/bin/auto-update.sh
+  346  sudo systemctl start auto-update.service
+  347  sudo systemctl status auto-update.service
+  348  cat /var/log/auto-update.log
+  349  clear
+  350  history
+  351  history > ~/Desktop/terminal_history.txt
